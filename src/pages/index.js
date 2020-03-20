@@ -45,8 +45,7 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Ipsum lorem dolor aliquam ante commodo<br />
-                            magna sed accumsan arcu neque.</h2>
+                            <h2>New place holder.</h2>
                         </header>
                         <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
                         <ul className="actions">
@@ -84,9 +83,9 @@ class HomeIndex extends React.Component {
                                 <p>
                                   <label>Message: <textarea name="message"></textarea></label>
                                 </p>
-                                <p>
-                                  <button type="submit">Send</button>
-                                </p>
+                                <ul className="actions">
+                                    <li><input type="submit" value="Send Message" /></li>
+                                </ul>
                               </form>
                             </div>
                             <div className="4u 12u$(small)">
