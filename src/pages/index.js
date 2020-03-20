@@ -84,9 +84,9 @@ class HomeIndex extends React.Component {
                                 <p>
                                   <label>Message: <textarea name="message"></textarea></label>
                                 </p>
-                                <p>
-                                  <button type="submit">Send</button>
-                                </p>
+                                <ul className="contact">
+                                  <input type="submit" value="Send Message" />
+                                </ul>
                               </form>
                             </div>
                             <div className="4u 12u$(small)">
@@ -99,7 +99,7 @@ class HomeIndex extends React.Component {
                                     </li>
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="mailto:nick@latenightjunkfood.com">Email Me!</a>
+                                        <a href="mailto:nick@latenightjunkfood.com">nick@latenightjunkfood.com</a>
                                     </li>
                                 </ul>
                             </div>
